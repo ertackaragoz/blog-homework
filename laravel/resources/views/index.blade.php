@@ -19,5 +19,9 @@
         <a href="{{ route('makale.detay', $makale['id']) }}" class="detay-buton">Detay</a>
     </div>
 @endforeach
+
+<div>
+    <a href="{{ route('logout') }}">Çıkış Yap</a>
+</div>
 </body>
 </html>

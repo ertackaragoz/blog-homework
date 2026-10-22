@@ -9,3 +9,5 @@ Route::post('/login', [AuthController::class, 'login']);
 
 Route::get('/', [BlogController::class, 'index'])->name('home');
 Route::get('/makale/{id}', [BlogController::class, 'show'])->name('makale.detay');
+
+Route::get('/logout', [AuthController::class, 'logout'])->name('logout');

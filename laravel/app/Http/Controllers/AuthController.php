@@ -23,4 +23,10 @@ class AuthController extends Controller
 
         return back()->withErrors(['hata' => 'Kullanıcı adı veya şifre hatalı']);
     }
+
+    public function logout()
+    {
+        session()->forget('admin_logged_in');
+        return redirect()->route('login');
+    }
 }
