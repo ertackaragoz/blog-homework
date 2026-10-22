@@ -8,7 +8,7 @@
     <title>{{$makale['baslik']}}</title>
 </head>
 <body>
-<a href="{{ route('home') }}" class="geri-don">← Anasayfaya Dön</a>
+<a href="{{ route('home') }}">← Anasayfaya Dön</a>
 
 <hr>
 <h1>{{ $makale['baslik'] }}</h1>

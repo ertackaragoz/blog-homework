@@ -12,7 +12,7 @@
 <h1>Hoşgeldiniz</h1>
 
 @if($errors->any())
-    <div class="error">{{ $errors->first() }}</div>
+    <div>{{ $errors->first() }}</div>
 @endif
 
 <form action="{{ route('login') }}" method="POST">

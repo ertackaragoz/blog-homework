@@ -16,7 +16,7 @@
         <h2>{{ $makale['baslik'] }}</h2>
         <p>Eklenme Tarihi: {{ $makale['tarih'] }}</p>
         <p>{{ $makale['ozet'] }}</p>
-        <a href="{{ route('makale.detay', $makale['id']) }}" class="detay-buton">Detay</a>
+        <a href="{{ route('makale.detay', $makale['id']) }}">Detay</a>
     </div>
 @endforeach
 
